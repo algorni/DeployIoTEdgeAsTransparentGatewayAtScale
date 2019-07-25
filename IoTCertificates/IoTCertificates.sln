@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTCertificates.Common", "IoTCertificates.Common\IoTCertificates.Common.csproj", "{F499F40C-D82D-494F-A40D-4AEE712DE2D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoTCertificates.Common", "IoTCertificates.Common\IoTCertificates.Common.csproj", "{F499F40C-D82D-494F-A40D-4AEE712DE2D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTCertificates.EdgeBootstrap", "IoTCertificates.EdgeBootstrap\IoTCertificates.EdgeBootstrap.csproj", "{BC940E13-599D-4B41-BB99-CC3BBC018360}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoTCertificates.EdgeBootstrap", "IoTCertificates.EdgeBootstrap\IoTCertificates.EdgeBootstrap.csproj", "{BC940E13-599D-4B41-BB99-CC3BBC018360}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdgeBootstrapAgent", "EdgeBootstrapAgent\EdgeBootstrapAgent.csproj", "{261D2A8B-724D-4453-8019-FD3C16668322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EdgeBootstrapAgent", "EdgeBootstrapAgent\EdgeBootstrapAgent.csproj", "{261D2A8B-724D-4453-8019-FD3C16668322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTCertificates.BootstrapProxy", "IoTCertificates.BootstrapProxy\IoTCertificates.BootstrapProxy.csproj", "{324348B5-4FA7-4CCC-90F4-956EA02E1AD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoTCertificates.Service", "IoTCertificates.Service\IoTCertificates.Service.csproj", "{68CB84F9-6B13-4741-9955-5A0931691B47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTCertificates.Service", "IoTCertificates.Service\IoTCertificates.Service.csproj", "{68CB84F9-6B13-4741-9955-5A0931691B47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoTCertificates.ServiceClient", "IoTCertificates.ServiceClient\IoTCertificates.ServiceClient.csproj", "{DD86CF04-DC59-4E8C-BFCA-08A93CBE44AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTCertificates.ServiceClient", "IoTCertificates.ServiceClient\IoTCertificates.ServiceClient.csproj", "{DD86CF04-DC59-4E8C-BFCA-08A93CBE44AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoTCertificateServiceFunctionApp", "IoTCertificateServiceFunctionApp\IoTCertificateServiceFunctionApp.csproj", "{75417E1F-2448-4440-8A82-BDA778653822}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTCertificateServiceFunctionApp", "IoTCertificateServiceFunctionApp\IoTCertificateServiceFunctionApp.csproj", "{75417E1F-2448-4440-8A82-BDA778653822}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoTCertificatesServiceProxyFunctionApp", "IoTCertificatesServiceProxyFunctionApp\IoTCertificatesServiceProxyFunctionApp.csproj", "{770ED764-1AE1-4DFC-85A6-A2F20C855A31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTCertificatesServiceProxyFunctionApp", "IoTCertificatesServiceProxyFunctionApp\IoTCertificatesServiceProxyFunctionApp.csproj", "{770ED764-1AE1-4DFC-85A6-A2F20C855A31}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildDeviceReferenceApp", "ChildDeviceReferenceApp\ChildDeviceReferenceApp.csproj", "{C6A8F3A5-B581-4432-8953-AD2AC9F3C96B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoTCertificates.Persistency", "IoTCertificates.Persistency\IoTCertificates.Persistency.csproj", "{CFF350AC-6D43-4FC8-A507-2ADD70D568B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTCertificatesPersistencyFunctionApp", "IoTCertificatesPersistencyFunctionApp\IoTCertificatesPersistencyFunctionApp.csproj", "{7C631DBF-9646-4BF4-A848-AC9D24F116E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +41,6 @@ Global
 		{261D2A8B-724D-4453-8019-FD3C16668322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{261D2A8B-724D-4453-8019-FD3C16668322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{261D2A8B-724D-4453-8019-FD3C16668322}.Release|Any CPU.Build.0 = Release|Any CPU
-		{324348B5-4FA7-4CCC-90F4-956EA02E1AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{324348B5-4FA7-4CCC-90F4-956EA02E1AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{324348B5-4FA7-4CCC-90F4-956EA02E1AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{324348B5-4FA7-4CCC-90F4-956EA02E1AD4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{68CB84F9-6B13-4741-9955-5A0931691B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{68CB84F9-6B13-4741-9955-5A0931691B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68CB84F9-6B13-4741-9955-5A0931691B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +57,18 @@ Global
 		{770ED764-1AE1-4DFC-85A6-A2F20C855A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{770ED764-1AE1-4DFC-85A6-A2F20C855A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{770ED764-1AE1-4DFC-85A6-A2F20C855A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A8F3A5-B581-4432-8953-AD2AC9F3C96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A8F3A5-B581-4432-8953-AD2AC9F3C96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A8F3A5-B581-4432-8953-AD2AC9F3C96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A8F3A5-B581-4432-8953-AD2AC9F3C96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF350AC-6D43-4FC8-A507-2ADD70D568B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF350AC-6D43-4FC8-A507-2ADD70D568B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF350AC-6D43-4FC8-A507-2ADD70D568B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF350AC-6D43-4FC8-A507-2ADD70D568B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C631DBF-9646-4BF4-A848-AC9D24F116E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C631DBF-9646-4BF4-A848-AC9D24F116E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C631DBF-9646-4BF4-A848-AC9D24F116E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C631DBF-9646-4BF4-A848-AC9D24F116E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

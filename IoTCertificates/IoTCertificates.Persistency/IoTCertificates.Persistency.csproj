@@ -3,10 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\IoTCertificates.Common\IoTCertificates.Common.csproj" />
-    <ProjectReference Include="..\IoTCertificates.ServiceClient\IoTCertificates.ServiceClient.csproj" />
   </ItemGroup>
 
 </Project>
